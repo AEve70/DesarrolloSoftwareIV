@@ -1,0 +1,42 @@
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 100vh;
+    gap: 4rem;
+}
+
+.item {
+    text-align: center;
+    border: solid;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    flex: 1 1 200px;
+}
+
+#one{
+    background-color: purple;
+    order:1;
+}
+
+#two{
+    background-color: brown;
+    
+}
+
+#three{
+    background-color: #250766;
+    
+}
+
+#four{
+    background-color: darkgreen;
+    align-self: flex-end;
+}
+
